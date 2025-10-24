@@ -1,4 +1,4 @@
-"
+
 name: Mon CI
 
 on:
@@ -17,4 +17,3 @@ jobs:
         run: |
           echo "Félicitations, Pipeline CI déclenché avec réussite"
           ls -l
-"@ | Out-File -FilePath .github/workflows/ci.yml -Encoding utf8
